@@ -1,6 +1,6 @@
 <?php
 
-$connect = mysqli_connect('localhost', 'root', 'root', 'ensat') or die("Impossible de se connecter à la base de données");
+$connect = mysqli_connect('localhost', 'root', '', 'ensat') or die("Impossible de se connecter à la base de données");
 $s = "select * from eleve";
 $result = mysqli_query($connect, $s);
 
